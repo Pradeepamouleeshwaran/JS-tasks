@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sortArray(arr) {
+            return arr.slice().sort((i,j)=> i-j);
+        }
+        const unsortedArray = [3,1,4,1,5,9,2,6,5,4,9];
+        const sortedArray = sortArray(unsortedArray);
+        console.log(sortedArray);
+    </script>
+</body>
+</html>
